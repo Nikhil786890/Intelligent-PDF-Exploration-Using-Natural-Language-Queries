@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit & runtime cache
+.streamlit/
+
+# Model files
+*.safetensors
+*.bin
+*.h5
+*.pth
+offline_models/
+models/
+
+# Large text/tokenizer files
+*.txt
+*.json
+
+# Data
+data/
+*.pdf
+*.npy
+
+# IDE configs
+.vscode/
+.idea/
+
+# Temporary files
+~$*
+*.docx
+*.tmp
